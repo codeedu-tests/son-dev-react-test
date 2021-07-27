@@ -53,11 +53,11 @@ Ao selecionar um tema, todo o design da aplicação deve estar coerente entre as
 
 * Cada álbum terá uma lista de músicas e ser acessível através da `api route` do Next.js. Esta lista deve ser acessível através do endpoint `/api/albums/:id`. Uma música deve conter os seguintes dados:
 
-* id
-* nome
-* tamanho em minutos
+    * id
+    * nome
+    * tamanho em minutos
 
-
+Os arquivos JSON de exemplo estão no repositório: `albums.json`e `soundtracks.json`. Você pode usa-los para adiantar o desenvolvimento. Neste exemplo há somente uma música por álbum, fique a vontade para adicionar mais, se quiser.
 ### Tema
 
 * Se não existir uma tema selecionado, o padrão deve ser preto.
